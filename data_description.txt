@@ -1,0 +1,33 @@
+Dataset Description
+Dataset Description
+The SignalCluster Dataset contains synthetic two-dimensional signal observations, where each sample represents a point defined by two continuous features. The goal is to classify each sample into one of several cluster categories based on its signal characteristics.
+
+Each row corresponds to an individual observation, described by:
+
+signal_strength — a continuous measurement representing the magnitude or intensity of the observed signal.
+response_level — a secondary continuous measurement describing the signal’s corresponding reaction or response.
+personality_cluster (target) — the category or cluster assignment derived from patterns in the two signal variables.
+This dataset is useful for practicing:
+
+Multiclass classification
+Decision boundary visualization
+Cluster behavior interpretation
+Model evaluation under class imbalance scenarios (if applicable)
+No real-world identities or personal information are included; the data is fully anonymized and suitable for research, learning, and competition environments.
+
+Columns
+Column Name	Description
+participant_id	Unique identifier for each sample
+signal_strength	Primary continuous signal measurement
+response_level	Secondary continuous signal measurement
+personality_cluster	Target class label representing the cluster category
+Task
+Your task is to build a machine learning model that predicts the personality_cluster for each sample based on its two signal measurements.
+
+This is a multiclass classification problem.
+
+Recommended Uses
+Visualizing class separation in 2D feature space
+Trying linear vs nonlinear classifiers
+Experimenting with decision boundary shapes
+Practicing evaluation metrics like Macro F1 Score

@@ -1,0 +1,7 @@
+Competition Rules
+Models Restriction:
+Submission Deadline: The hard deadline for submitting the second checkpoint is 25th November, 11:55 PM. No late submissions will be accepted, so please plan accordingly.
+Plagiarism: Plagiarism of code and results is strictly forbidden. All work must be your own. Any form of copying, whether from peers or external sources, will result in disqualification. Plagiarism check will happen.
+Report Submission: Along with your Kaggle submissions, you must submit a detailed report that includes your approach to solving this problem. The report should cover all aspects, including: Data processing steps Models used Hyperparameter tuning Discussion on the performance of different approaches
+GitHub Link: A GitHub link to the source code used to generate your predictions must be provided in your report. This is essential to ensure the reproducibility of your results.
+Reproducibility: Use consistent random seeds/states throughout your code to maintain reproducibility. Ensure that any randomness in your methods is controlled so results can be reliably reproduced.

@@ -1,0 +1,4 @@
+Model,CV_F1_Score,Std_Dev,Best_Params
+SVM_RBF,0.9871235488835015,0.009279373246920925,"{'C': 15, 'class_weight': 'balanced', 'gamma': 0.7, 'kernel': 'rbf'}"
+MLP,0.985816218281619,0.010365114821470922,"{'activation': 'relu', 'alpha': 0.5, 'early_stopping': True, 'hidden_layer_sizes': (20,), 'learning_rate_init': 0.0005, 'max_iter': 1000, 'solver': 'lbfgs', 'validation_fraction': 0.15}"
+SVM_Linear,0.9822414647807568,0.0,"{'C': 100, 'class_weight': 'balanced', 'kernel': 'linear'}"

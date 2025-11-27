@@ -1,0 +1,26 @@
+Overview
+Overview
+Welcome to the SignalCluster Classification Challenge.
+
+In this competition, your task is to develop a model that predicts the personality cluster of each observation based on two signal measurements: signal_strength and response_level.
+
+Although the dataset appears simple at first glance, the patterns that separate the clusters may not be strictly linear. This makes the task a good opportunity to experiment with different classification techniques, visualizations, and decision boundary models.
+
+Your goal is to correctly classify each sample into its corresponding Cluster category.
+
+This is a multiclass classification problem, and submissions will be evaluated using Macro F1 Score, which ensures that all clusters are treated fairly regardless of their frequency.
+
+Start
+
+10 days ago
+Close
+4 days to go
+Evaluation
+Evaluation
+Submissions are evaluated using Macro F1 Score:
+    F1 marco = (1/K)(SUMMATION F1)
+
+This metric gives equal importance to each cluster, regardless of how frequently it appears.
+
+Submission Format
+Your submitted file must contain predictions for every row in the test.csv file and have the following format:
